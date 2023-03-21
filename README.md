@@ -4,4 +4,4 @@ This project is used to serve as playground to showcase different usages of Kara
 
 Subproject | Description
 ----|------
-[Mockserver](https://github.com/romanpierson/karate-playground/mockserver/blob/master/README.md) | The basic mockserver used by the different Karate projects
+[Mockserver](https://github.com/romanpierson/karate-playground/blob/mockserver/mockserver/README.md) | The basic mockserver used by the different Karate projects
