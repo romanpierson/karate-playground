@@ -33,8 +33,9 @@ public class SimpleJsonResponseVerticle extends AbstractVerticle {
 			ctx.response().putHeader("Content-Type", "application/json; charset=utf-8")
 					.end(resultJson.encodePrettily());
 			
-		});
-
+      
+		}, false);
+    
 		vertx.createHttpServer().requestHandler(router).listen(8080);
 
 		startPromise.complete();

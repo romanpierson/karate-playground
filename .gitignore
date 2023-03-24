@@ -1,0 +1,3 @@
+mockserver/bin
+standalone/target
+standalone/karate.jar
