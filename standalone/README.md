@@ -29,7 +29,7 @@ java -jar karate-1.3.1.jar -T 5  features/orchestration-main.feature
 
 
 Feature | Description | Observation
-----|------
+----|------|----
 all-scenarios-parallel | Contains 4 scenarios that can run in parallel | If run parallel executed in parallel 
 all-scenarios-serial | Contains 2 scenarios that must run serial | Always executed serial
 scenarios-parallel-serial-mixed | Contains each 2 serial and 2 parallel scenarios | If run parallel parallel scenarios are executed in parallel
